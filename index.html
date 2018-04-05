@@ -25,21 +25,21 @@
     <div class="container">
       <div class="row">
         <div class="col-3 jumbotron bg-success">
-          <h2 id="randomNumber"></h2>
+          <h2 id="numberToGet"></h2>
         </div>
-        <div class="col-1 bg-primary text-white">
-          <p id="wins">Wins: 0</p>
-          <p id="losses">Losses: 0</p>
+        <div class="col-1 bg-primary text-white pb-0">
+          <p>Wins:<span id="wins">0</span></p>
+          <p>Losses:<span id="losses">0</span></p>
         </div>
       </div>
     </div>
 
     <div class="container">
       <div class="row">
-        <div class="col-sm"><img src="assets/images/blueCrystal.jpg" alt="blueCrystal" id="crystal"></div>
-        <div class="col-sm"><img src="assets/images/greenCrystal.jpg" alt="greenCrystal" id="crystal"></div>
-        <div class="col-sm"><img src="assets/images/purpleCrystal.jpg" alt="purpleCrystal" id="crystal"></div>
-        <div class="col-sm"><img src="assets/images/yellowCrystal.jpg" alt="yellowCrystal" id="crystal"></div>
+        <div class="col-sm" id="blueCrystal"><img src="assets/images/blueCrystal.jpg" alt="blueCrystal"></div>
+        <div class="col-sm" id="greenCrystal"><img src="assets/images/greenCrystal.jpg" alt="greenCrystal"></div>
+        <div class="col-sm" id="purpleCrystal"><img src="assets/images/purpleCrystal.jpg" alt="purpleCrystal"></div>
+        <div class="col-sm" id="yellowCrystal"><img src="assets/images/yellowCrystal.jpg" alt="yellowCrystal"></div>
       </div>
     </div>
 
@@ -47,11 +47,12 @@
       <h2>Your total score:</h2>
     </div>
     <div class="jumbotron bg-info font-weight-bold mt-1 mb-3 w-25">
-      <h2 id="currentScore">0</h2>
+      <h2 id="current-score">0</h2>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
   </body>
 </html>
